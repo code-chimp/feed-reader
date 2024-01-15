@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../feed-reader/.idea/feed_reader_2.iml" filepath="$PROJECT_DIR$/../feed-reader/.idea/feed_reader_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../feed-reader/.idea/feed-reader.iml" filepath="$PROJECT_DIR$/../feed-reader/.idea/feed-reader.iml" />
     </modules>
   </component>
 </project>

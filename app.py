@@ -94,7 +94,7 @@ def add_feed():
     title = request.form.get('title')
     show_images = request.form.get('showImages')
 
-    feeds[feed_id] = {"title": title, "href": url, "show_images": show_images, "entries": {}}
+    feeds[feed_id] = {"title": title, "href": url, "show_images": show_images == 'on', "entries": {}}
 
     return redirect(url_for('render_feed', feed_id=feed_id))
 
